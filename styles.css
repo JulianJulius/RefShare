@@ -1,0 +1,70 @@
+
+/* Existing CSS */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+#loginForm input, #newPost {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+}
+
+#searchBar, #newMessage {
+  margin-bottom: 20px;
+}
+
+#conversations {
+  float: left;
+  width: 30%;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+#currentChat {
+  float: left;
+  width: 68%;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+#newMessage {
+  clear: both;
+  display: block;
+  margin-top: 10px;
+}
+
+/* New CSS for updated features */
+
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.myMessage {
+  text-align: right;
+  background-color: #f1f1f1;
+}
+
+.theirMessage {
+  text-align: left;
+  background-color: #e1e1e1;
+}
